@@ -12,6 +12,6 @@
 
 ### Despliegue del sitio web
 #### Github
-![](https://cartory.github.io/practicaTecnoWeb/)
+[a link](https://cartory.github.io/practicaTecnoWeb/)
 #### Servidor FTP del grupo
-![](http://tecnoweb.org.bo/inf513/grupo18sc/Practica3SC/)
+[a link](http://tecnoweb.org.bo/inf513/grupo18sc/Practica3SC/)
