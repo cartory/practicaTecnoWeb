@@ -9,3 +9,9 @@
 ![](./assets/readme-img/TareaTecno05.png)
 ![](./assets/readme-img/TareaTecno06.png)
 ![](./assets/readme-img/TareaTecno07.png)
+
+### Despliegue del sitio web
+#### Github
+![](https://cartory.github.io/practicaTecnoWeb/)
+#### Servidor FTP del grupo
+![](http://tecnoweb.org.bo/inf513/grupo18sc/Practica3SC/)
