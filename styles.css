@@ -83,8 +83,8 @@ img {
 }
 
 p {
-  margin: auto 0;
-  padding: auto 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -93,7 +93,6 @@ a {
 }
 
 a:hover {
-  size: 120%;
   color: azure;
   opacity: .7;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -101,7 +100,7 @@ a:hover {
 
 h1 {
     color: white;
-    padding: 0 auto;
+    padding: 0;
     font-size: 350%;
     font-weight: bold;
     font-variant: small-caps;
@@ -180,7 +179,7 @@ canvas {
 
   .card-stats .stat {
     display: flex;
-    padding: auto 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
