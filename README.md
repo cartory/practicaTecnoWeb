@@ -1,5 +1,5 @@
-# practicaTecnoWeb
-
+# practica#2TecnoWeb
+### Despliegue del sitio web
 #### Github
 [Click para ir a la pagina en Github](https://cartory.github.io/practicaTecnoWeb/)
 #### Servidor FTP del grupo
@@ -14,5 +14,3 @@
 ![](./assets/readme-img/TareaTecno05.png)
 ![](./assets/readme-img/TareaTecno06.png)
 ![](./assets/readme-img/TareaTecno07.png)
-
-### Despliegue del sitio web
