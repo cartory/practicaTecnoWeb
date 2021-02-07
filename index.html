@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>PRACTICO#2 SC</title>
+    <title>PRACTICO#2 - SA</title>
 </head>
 
 <body>
@@ -257,7 +257,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h2>Estadisticas T </h2>
+                        <h2>Services Known</h2>
                     </div>
                     <div class="modal-body">
                         <canvas id="chartPablo"></canvas>
@@ -400,14 +400,34 @@
         ctx = document.getElementById('chartPablo').getContext('2d');
         chart = new Chart(ctx,
             {
-                type: "line",
-                data: [{
-    x: 10,
-    y: 20
-}, {
-    x: 15,
-    y: 10
-}]
+                type: "doughnut",
+                data: {
+                    labels: [
+                        "AWS", "GCP", "FIREBASE MLKIT",
+                        "AZURE", "ALAN AI", "HEROKU",
+                        "TENSORFLOW"
+                    ],
+                    datasets: [
+                        {
+                            label: "My First Dataset",
+                            data: [
+                                80, 60, 90,
+                                85, 65, 75,
+                                80,
+                            ],
+                            backgroundColor: [
+                                `rgba(239, 99, 37,${alfa})`,
+                                `rgba(  5,101, 74,${alfa})`,
+                                `rgba(  3,110, 56,${alfa})`,
+
+                                `rgba(  0,169,237,${alfa})`,
+                                `rgba( 20, 58,131,${alfa})`,
+                                `rgba(224, 34, 18,${alfa})`,
+                                `rgba(236,131,174,${alfa})`,
+                            ]
+                        }
+                    ]
+                }
             });
     </script>
 </body>
