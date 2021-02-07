@@ -25,7 +25,7 @@ let displays = [
     document.getElementById("displayPablo"),
 ];
 
-let span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close");
 
 for (let i = 0; i < btnCharts.length; i++) {
     const btn = btnCharts[i];
@@ -44,19 +44,23 @@ for (let i = 0; i < btnCharts.length; i++) {
     }
 }
 
-span.onclick = () => {
-    modalCharts.forEach(modal => {
-        if (modal) {
-            modal.style.display = "none";
-        }
-    })
-
-    displays.forEach(modal => {
-        if (modal) {
-            modal.style.display = "none";
-        }
-    })
+for (let i = 0; i < span.length; i++) {
+    const aSpan = span[i];
+    aSpan.onclick = () => {
+        modalCharts.forEach(modal => {
+            if (modal) {
+                modal.style.display = "none";
+            }
+        })
+    
+        displays.forEach(modal => {
+            if (modal) {
+                modal.style.display = "none";
+            }
+        })
+    }
 }
+
 
 window.onclick = event => {
     modalCharts.forEach(modal => {
