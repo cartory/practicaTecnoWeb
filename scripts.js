@@ -13,6 +13,7 @@ let btnCharts = [
     document.getElementById("btnChartPablo"),
 ];
 
+
 let btnDisplays = [
     document.getElementById("btnDisplayVlada"),
     document.getElementById("btnDisplayCari"),
