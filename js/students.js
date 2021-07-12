@@ -1,8 +1,7 @@
 const studentsContainer = document.getElementById("students-container");
 
 students.forEach((student) => {
-  // STUDENT CARD WITH INFO
-  studentsContainer.innerHTML += `
+    studentsContainer.innerHTML += `
         <section class="student">
             <div class="card">
                 <div class="card-image">
@@ -11,15 +10,11 @@ students.forEach((student) => {
                 <div class="card-text">
                     <span class="date">${student.profession}</span>
                     <h2>${student.name}</h2>
-                    <p>
-                        ${student.message}
-                    </p>
+                    <p>${student.message}</p>
                 </div>
                 <div class="card-stats">
                     <div class="stat" title="CV">
-                        <a href=${
-                          student.pdf
-                        } download target="_blank" title="CV">
+                        <a href=${student.pdf} download target="_blank" title="CV">
                             <i class="material-icons">picture_as_pdf</i>
                             <p title="CV">CV</p>
                         </a>
@@ -67,19 +62,11 @@ students.forEach((student) => {
                         <h2><i class="material-icons">play_circle_filled</i> Videos <i
                                 class="material-icons">play_circle_filled</i></h2>
                         <div class="container">
-                            ${student.videos.map(
-                              (url) => `<iframe src=${url}></iframe>`
-                            )}
+                            ${student.videos.map(url => `<iframe src=${url} allow="fullscreen;"></iframe>`)}
                         </div>
                         <h2><i class="material-icons">audiotrack</i> Audios <i class="material-icons">audiotrack</i></h2>
                         <div class="container">
-                            ${student.audios.map((audio) => {
-                              return `
-                                <div class="audio">
-                                <h4>${audio.name} - ${audio.artist}</h4>
-                                <audio controls src=${audio.url}></audio>
-                            </div>`;
-                            })}
+                            ${student.audios.map(audio => `<div class="audio"><h4>${audio.name} - ${audio.artist}</h4><audio controls src=${audio.url}></audio></div>`)}
                         </div>
                     </div>
                     <div class="modal-footer">

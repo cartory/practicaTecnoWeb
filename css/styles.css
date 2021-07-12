@@ -4,6 +4,7 @@
 html,
 body {
   background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -73,13 +74,7 @@ body {
 
 .student {
   border-width: medium;
-  /* background-color: teal; */
 }
-
-/* .card {
-    border-radius: 5%;
-    border: 2px solid rgba(0, 0, 0, .8);
-} */
 
 h2 {
   text-align: center;
@@ -111,7 +106,7 @@ a:hover {
 h1 {
   color: white;
   padding: 0;
-  font-size: 350%;
+  font-size: 150%;
   font-weight: bold;
   font-variant: small-caps;
   font-family: "Yusei Magic", sans-serif;
@@ -122,7 +117,6 @@ canvas {
   margin-bottom: 15px;
 }
 
-/* CARD STYLES */
 .card {
   display: grid;
   grid-template-columns: 300px;
@@ -130,10 +124,9 @@ canvas {
   grid-template-areas: "image" "text" "stats";
 
   border-radius: 18px;
-  background: white;
-  box-shadow: 0 0 15px #fefefe, 0 0 20px 10px lightblue;
-  font-family: roboto;
+  background: #fff;
   text-align: center;
+  box-shadow: 0 0 15px #fefefe, 0 0 20px 10px lightblue;
 }
 
 .card-image {
@@ -204,15 +197,6 @@ canvas {
   margin: 30px;
 }
 
-/* 
-  
-  
-  */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -263,6 +247,24 @@ body {
   to {
     top: 0;
     opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.97);
+  }
+
+  30% {
+    transform: scale(0.95);
+  }
+
+  70% {
+    transform: scale(0.97);
+  }
+
+  100% {
+    transform: scale(.95);
   }
 }
 
