@@ -44,7 +44,7 @@ students.forEach((student) => {
                 <div class="modal-content">
                     <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h2>Frameworks Known</h2>
+                        <h2>Skills</h2>
                     </div>
                     <div class="modal-body">
                         <canvas id="chart${student.id}"></canvas>

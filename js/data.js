@@ -10,9 +10,9 @@ const students = [
         src: "assets/profile/octavio.jpeg",
         pdf: "assets/cvs/octavio.pdf",
         videos: [
-            "https://www.youtube.com/watch?v=8XqNq_oeSMM",
-            "https://www.youtube.com/watch?v=rHojbi6I_RY",
-            "https://www.youtube.com/watch?v=-6jhuhsG-7w",
+            "https://www.youtube.com/embed/vvT-Yu6ljaw",
+            "https://www.youtube.com/embed/TjYluNsjvBw",
+            "https://www.youtube.com/embed/8aUR-Bi4rzI",
         ],
         audios: [
             {
@@ -36,7 +36,7 @@ const students = [
             type: "pie",
             // The data for our dataset
             data: {
-                labels: ["Angular", "React", "Express", "Flutter", ".Net", "Laravel"],
+                labels: ["Nodejs", "Java", "Laravel", "Angular", "Asp.Net", "Flutter"],
                 datasets: [
                     {
                         label: "MESES TRABAJANDO",
@@ -54,7 +54,7 @@ const students = [
                             // `rgba(215,  1,  9,${alfa})`,
                         ],
                         // borderColor: 'rgb(255, 99, 132)',
-                        data: [10, 5, 2, 20, 30, 45],
+                        data: [ 25, 25, 5, 10, 15, 20],
                     },
                 ],
             },
@@ -74,9 +74,9 @@ const students = [
         src: "assets/profile/sergio.jpeg",
         pdf: "assets/cvs/sergio.pdf",
         videos: [
-            "https://www.youtube.com/watch?v=tG35R8F2j8k&t=88s",
-            "https://www.youtube.com/watch?v=tG7wLK4aAOE",
-            "https://www.youtube.com/watch?v=Bv-1BnoB75k",
+            "https://www.youtube.com/embed/mRCOc33Id-o",
+            "https://www.youtube.com/embed/700IJM5ND7U",
+            "https://www.youtube.com/embed/yOQfPN0XBGs",
         ],
         audios: [
             {
@@ -99,10 +99,10 @@ const students = [
             type: "radar",
             data: {
                 labels: [
-                    "JavaScript",
-                    "Java",
-                    "Php",
-                    "SQL",
+                    "Arduino",
+                    "GNS3",
+                    "VMware",
+                    "Cisco Packet Tracer",
                     "Python",
                     "Dart",
                     "HTML/CSS",
@@ -110,8 +110,8 @@ const students = [
                 datasets: [
                     {
                         fill: true,
-                        label: "Language / Skill",
-                        data: [85, 80, 70, 75, 75, 80, 80, 20],
+                        label: "Knownledge",
+                        data: [70, 90, 90, 75, 60, 40, 50, 20],
                         backgroundColor: "rgba(255, 99, 132, 0.2)",
                         borderColor: "rgb(255, 99, 132)",
                         pointBackgroundColor: "rgb(255, 99, 132)",
@@ -137,9 +137,9 @@ const students = [
         src: "assets/profile/milena.jpeg",
         pdf: "assets/cvs/milena.pdf",
         videos: [
-            "https://www.youtube.com/watch?v=QYh6mYIJG2Y",
-            "https://www.youtube.com/watch?v=gl1aHhXnN1k",
-            "https://www.youtube.com/watch?v=kHLHSlExFis",
+            "https://www.youtube.com/embed/XTZHCzwTYS0",
+            "https://www.youtube.com/embed/_Ldlz79gRiI",
+            "https://www.youtube.com/embed/48PrdKWVvdQ",
         ],
         audios: [
             {
