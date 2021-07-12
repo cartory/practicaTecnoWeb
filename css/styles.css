@@ -1,6 +1,11 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Ubuntu&display=swap");
 
+html,
+body {
+  background-color: #000;
+}
+
 * {
   font-family: "Ubuntu", sans-serif;
 }
@@ -126,9 +131,7 @@ canvas {
 
   border-radius: 18px;
   background: white;
-  box-shadow: 
-    0 0 15px #fefefe,
-    0 0 20px 10px lightblue;
+  box-shadow: 0 0 15px #fefefe, 0 0 20px 10px lightblue;
   font-family: roboto;
   text-align: center;
 }
@@ -193,9 +196,7 @@ canvas {
 
 .card:hover {
   transform: scale(1.15);
-  box-shadow: 
-  0 0 15px #fefefe,
-  0 0 20px 10px lightblue;
+  box-shadow: 0 0 15px #fefefe, 0 0 20px 10px lightblue;
 }
 .card {
   transition: 0.2s ease;
@@ -295,4 +296,3 @@ body {
   background-color: lightseagreen;
   color: white;
 }
-

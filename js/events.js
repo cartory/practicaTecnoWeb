@@ -3,7 +3,7 @@ const btnCharts = []
 const modalCharts = []
 const btnDisplays = []
 
-students.forEach(({id}) => {
+students.forEach(({ id }) => {
     modalCharts.push(document.getElementById(`chartModal${id}`))
     btnCharts.push(document.getElementById(`btnChart${id}`))
     btnDisplays.push(document.getElementById(`btnDisplay${id}`))
@@ -37,7 +37,7 @@ for (let i = 0; i < span.length; i++) {
                 modal.style.display = "none";
             }
         })
-    
+
         displays.forEach(modal => {
             if (modal) {
                 modal.style.display = "none";
@@ -46,17 +46,14 @@ for (let i = 0; i < span.length; i++) {
     }
 }
 
-
 window.onclick = event => {
     modalCharts.forEach(modal => {
-        if (event.target == modal) {
+        if (event.target == modal)
             modal.style.display = "none"
-        }
     });
 
     displays.forEach(modal => {
-        if (event.target == modal) {
+        if (event.target == modal)
             modal.style.display = "none"
-        }
     })
 }
